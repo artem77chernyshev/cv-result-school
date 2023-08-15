@@ -212,7 +212,7 @@ ol li:nth-child(even) {
         text-align: center;
     }
     ol li {
-        max-width: 220px;
+        max-width: 200px;
     }
     .form-row {
         display: block;
@@ -229,3 +229,18 @@ ol li:nth-child(even) {
     }
 }
 
+@media (max-width: 350px) {
+    body {
+        margin-left: 10px;
+    }
+    ol li {
+        max-width: 135px;
+    }
+    table tr td {
+        padding: 6px 9px;
+        font-size: 8px;
+    }
+    .bg_yellow {
+        padding-left: 10px;
+    }
+}
