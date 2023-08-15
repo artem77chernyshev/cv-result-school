@@ -223,4 +223,9 @@ ol li:nth-child(even) {
         margin-bottom: 20px;
         margin-right: 0;
     }
+    table tr td {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
 }
+
