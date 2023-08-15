@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-image: url(background.jpg);
+    font-family: 'Roboto', Calibri, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f141e;
+    /* background: #f1f1f1; */
+}
+
+.form {
+    color: #5f6165;
+}
+
+.form h2 {
+    color: black;
+    text-align: center;
+}
+
+.text_info p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+}
+
+.contacts p {
+    font-style: normal;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.card {
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.bg_red {
+    background-color: pink;
+}
+
+.bg_green {
+    background-color: lightgreen;
+}
+
+.bg_yellow {
+    background-color: lightyellow;
+}
+
+.container {
+    margin: auto;
+    max-width: 70%;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 27%;
+    box-shadow: 4px 4px 14px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+
+.btn:hover {
+    color: orange;
+}
+
+.btn:active {
+    background: white;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover {
+    color: red;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:active {
+    color: orange;
+}
+
+table {
+    width: 100%;
+}
+
+table tr td {
+    background-color: #ffe47a;
+    padding: 10px 20px;
+}
+
+table tr td:nth-child(odd) {
+    background-color: #ffda48;
+}
+
+table thead tr:first-child td {
+    background-color: orange;
+} 
+
+table thead td:first-child {
+    border-top-left-radius: 20px;
+}
+
+table thead td:last-child {
+    border-top-right-radius: 20px;
+}
+
+table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    margin: 10px 15px;
+    padding: 5px 10px;
+    background-color: salmon;
+    width: 350px;
+    border-radius: 10px;
+}
+
+ol li:nth-child(even) {
+    background-color: lightcoral;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.formcard input, .formcard textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.formcard label {
+    display: block;
+    box-sizing: border-box;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.form-row .formcard {
+    width: 50%;
+}
+
+.form-row .formcard:first-child {
+    margin-right: 20px;
+}
+
+.formcard textarea {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+    body {
+        font-size: 12px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .avatar {
+        display: block;
+        margin: 10px auto;
+        width: 200px;
+    }
+    .info {
+        display: block;
+    }
+    .text_info {
+        text-align: center;
+    }
+    ol li {
+        max-width: 220px;
+    }
+    .form-row {
+        display: block;
+    }
+
+    .form-row .formcard {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
